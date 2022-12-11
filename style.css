@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 25%;
+    background-color: aliceblue;
+    border-right: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav__list{
+    list-style: none;
+}
+main{
+    width: 100%;
+    margin-left: 25%;   
+}
+
+.description{
+    font-size: 2rem;
+    padding-top: 10px;
+ 
+}
+.a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    transition: 0.3 ease-in;
+}
+.a:hover{
+    color:  skyblue;
+}
+
+
+.active{
+    color: skyblue;
+}
+
+.section{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-1{
+    height: 100vh;
+    background-color: aqua;
+}
+.section-2{
+    height: 100vh;
+    background-color: beige;
+}
+.section-3{
+    height: 100vh;
+    background-color: darkseagreen;
+}
+.section-4{
+    height: 100vh;
+    background-color: slateblue
+}
+.section-5{
+    height: 100vh;
+    background-color: hotpink;
+}
+.section-6{
+    height: 100vh;
+    background-color: powderblue;
+}
